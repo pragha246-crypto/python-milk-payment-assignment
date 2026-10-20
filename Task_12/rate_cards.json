@@ -1,0 +1,19 @@
+<escape>{
+  "normal": {
+    "base_rate": "30.00",
+    "fat_step_value": "0.40",
+    "snf_step_value": "0.30",
+    "reference_fat": "3.5",
+    "reference_snf": "8.5"
+  },
+  "april_june": {
+    "base_rate": "32.00",
+    "fat_step_value": "0.45",
+    "snf_step_value": "0.30",
+    "reference_fat": "3.5",
+    "reference_snf": "8.5"
+  },
+  "reading_step": "0.1",
+  "bonus_threshold_litres": "500",
+  "bonus_per_litre": "0.50"
+}</escape>
