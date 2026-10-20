@@ -151,15 +151,17 @@ For district-union deployment, the design would need a central database, user ac
 
 ## 9. Evidence
 
-The following files were uploaded for Task 11:
+The following files and screenshots provide evidence for Task 11:
 
-1. `README.md` – Contains the final design recommendation, data-type and rounding justification, rate revision method, limitations, district-union scalability analysis, and complexity analysis.
-2. `rate_card.json` – Stores the milk rate values separately from the Python calculation logic.
-3. `task11.py` – Implements Decimal-based payment calculations, input validation, and rate-card loading.
-4. Test results recorded in the README – Documents the two successful tests conducted using OnlineGDB.
-5. Task_11_System_Design.png – Screenshot of the system architecture diagram showing the input, validation, rate-card loading, calculation, and output stages.
+1. `README.md` – Contains the final design recommendation, system architecture, data-type and rounding justification, rate revision method, limitations, and complexity analysis.
+2. `rate_card.json` – Stores the milk rate values separately from the Python program.
+3. `task11.py` – Implements Decimal-based calculations, input validation, and rate-card loading.
+4. `Task_11_System_Design.png` – Screenshot of the system architecture diagram showing the input, validation, rate-card loading, calculation, and output stages.
+5. `Task_11_Output.png` – Screenshot of the OnlineGDB output showing the successful standard-value and above-standard test cases.
+6. Test results table in `README.md` – Records the expected rates and payments and the observed PASS results.
 
-**Note:** The OnlineGDB tests used a temporary Python dictionary containing the same rate values because the separate JSON file was not loaded directly in that editor.
+**Result:** The system design separates the rate configuration from the calculation logic and provides a clear workflow from milk entry to payment output.
+
 ## Conclusion
 
 I recommend using Decimal for financial calculations, a documented rounding rule for individual farmer payments, and a validated external JSON rate card for easier maintenance. The dictionary rate table can improve performance when many entries share the same fat and SNF values. For district-union deployment, the design should be extended with a secure database, audit records, access control, and backup facilities.
