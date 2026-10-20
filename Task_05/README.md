@@ -37,4 +37,3 @@ For a fixed number of input fields, conversion and formatting take O(1) time and
 ## Evidence
 - Python program: `task5.py`
 - Valid-input screenshot: `Task_05_Output.png`
-- Invalid-input screenshot: `Task_05_Invalid_Input.png`
