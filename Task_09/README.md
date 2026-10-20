@@ -77,7 +77,8 @@ The following evidence will be included:
 1. **Source code:** `task9.py`, containing the calculator and input validation.
 2. **Automated tests:** `test_task9.py`, containing assertions for valid, boundary, and invalid cases.
 3. **Test results table:** Expected and actual results for every test case.
-4. **Output screenshot:** `Task_09_Output.png`, showing the successful test execution.
+4. **Output screenshot:** `Task 9_Output.png`, showing the successful test execution.
+5. **Output screenshot:** `Task9_Valid_Input_Output.png`, showing the successful test execution.
 
 ## Conclusion
 The calculator is implemented and verified using normal, boundary, and invalid test cases. Automated assertions improve repeatability and help detect errors whenever the program is changed.
