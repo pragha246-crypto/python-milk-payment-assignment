@@ -64,10 +64,10 @@ Storing entries is useful when the program must display a history, revise a prev
 The following evidence is provided to demonstrate the algorithmic planning and implementation:
 
 1. **Pseudocode:** The step-by-step algorithm for calculating one farmer's milk payment and the ten-day total.
-2. **Flowchart:** `Task_08_Flowchart.md`, showing input validation, error handling, rate calculation, and payment calculation.
+2. **Flowchart:** `Task_08_Flowchart.png`, showing input validation, error handling, rate calculation, and payment calculation.
 3. **Hand Trace:** A table showing three sample entries, individual payments, and the running total of ₹917.50.
 4. **Python Program:** `task8.py`, implementing the planned algorithm with input validation and a running total.
-5. **Program Output:** `Task_08_Output.png`, showing the program's execution and calculated payment results.
+5. **Program Output:** `Task_8_Output.png`, showing the program's execution and calculated payment results.
 
 These items demonstrate that the algorithm was planned, traced, implemented, and tested before completion.
 
